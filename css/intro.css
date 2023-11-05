@@ -10,28 +10,16 @@
     width: 50%;
 }
 
-.left img {
-    margin-bottom: 20px;
-}
-
 .right {
     width: 45%;
-}
-
-ul {
-    margin-bottom: 40px;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
-li::before {
-    content: "→";
-    margin-right: 10px;
 }
 
 .left .para {
     font-weight: 500;
     line-height: 120%;
+}
+
+.reference {
+    color: #458EF7;
+    cursor: pointer;
 }
