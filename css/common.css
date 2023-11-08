@@ -73,6 +73,10 @@ li:not(.nostyle)::before {
     width: fit-content;
 }
 
+.imgbox img {
+    width: 100% !important;
+}
+
 .reference {
     color: #458EF7;
     cursor: pointer;
@@ -106,4 +110,10 @@ li:not(.nostyle)::before {
 
 .summary li:hover {
     text-decoration: underline;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
