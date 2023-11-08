@@ -117,3 +117,27 @@ li:not(.nostyle)::before {
     font-weight: bolder;
     margin-bottom: 10px;
 }
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 36px;
+    width: 100px;
+}
+
+.arrows a {
+    transition: transform 0.25s;
+}
+
+.arrows a:not(.disabled):hover {
+    transform: scale(1.3);
+}
+
+.disabled, .disabled:hover {
+    color: darkgrey;
+    cursor: not-allowed;
+}
